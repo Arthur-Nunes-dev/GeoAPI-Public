@@ -3,6 +3,8 @@
 GeoApi is licensed under the Business Source License 1.1 (BUSL-1.1).
 Offering GeoApi as a managed service or API is prohibited until 2028-01-01.
 
+## GeoApi
+
 **GeoApi** is a small REST API written in **TypeScript/Node.js** that provides geospatial utilities: distance calculation (Haversine), batch distance processing (with optional worker threads), and geohash creation/search backed by Supabase (Postgres).
 
 If you don't want the implementation work, we offer a pay-per-use option.
