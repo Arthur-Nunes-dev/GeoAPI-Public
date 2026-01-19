@@ -7,12 +7,6 @@ Offering GeoApi as a managed service or API is prohibited until 2028-01-01.
 
 **GeoApi** is a small REST API written in **TypeScript/Node.js** that provides geospatial utilities: distance calculation (Haversine), batch distance processing (with optional worker threads), and geohash creation/search backed by Supabase (Postgres).
 
-If you don't want the implementation work, we offer a pay-per-use option.
-
-Access the following URL for more information:
-https://rapidapi.com/ArthurNunesdev/api/geoapi24
-
----
 ## Overview
 
 GeoApi exposes simple endpoints to calculate distances between two coordinates, to calculate distances for large batches (with an automatic decision to use worker threads for heavy loads), and to store/query locations using geohashes for efficient radius search. It's designed for developers who need fast geospatial utilities as a service.
